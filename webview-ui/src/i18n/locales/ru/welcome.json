@@ -14,6 +14,7 @@
 	},
 	"landing": {
 		"greeting": "Добро пожаловать в Roo Code!",
+		"haiku": "Code flows like water\nIntelligence guides your path\nCreate without bounds",
 		"introduction": "С набором встроенных и расширяемых Режимов, Roo Code позволяет вам планировать, проектировать, писать код, отлаживать и повышать продуктивность как никогда раньше.",
 		"accountMention": "Для начала создайте свой аккаунт Roo Code Cloud. Получите мощные модели, веб-управление, аналитику, поддержку и многое другое.",
 		"getStarted": "Создать аккаунт Roo",

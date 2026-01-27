@@ -14,6 +14,7 @@
 	},
 	"landing": {
 		"greeting": "Welcome to Roo Code!",
+		"haiku": "Code flows like water\nIntelligence guides your path\nCreate without bounds",
 		"introduction": "With a range of built-in and extensible Modes, Roo Code lets you plan, architect, code, debug and boost your productivity like never before.",
 		"accountMention": "To get started, create your Roo Code Cloud account. Get powerful models, web control, analytics, support and more.",
 		"getStarted": "Create Roo Account",

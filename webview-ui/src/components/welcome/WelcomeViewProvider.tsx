@@ -295,6 +295,10 @@ const WelcomeViewProvider = () => {
 					<RooHero />
 					<h2 className="mt-0 mb-0 text-xl">{t("welcome:landing.greeting")}</h2>
 
+					<p className="text-sm text-vscode-descriptionForeground italic whitespace-pre-line mt-2 mb-4">
+						{t("welcome:landing.haiku")}
+					</p>
+
 					<div className="space-y-4 leading-normal">
 						<p className="text-base text-vscode-foreground">
 							<Trans i18nKey="welcome:landing.introduction" />

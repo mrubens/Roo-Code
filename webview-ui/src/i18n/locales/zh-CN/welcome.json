@@ -14,6 +14,7 @@
 	},
 	"landing": {
 		"greeting": "欢迎使用 Roo Code！",
+		"haiku": "Code flows like water\nIntelligence guides your path\nCreate without bounds",
 		"introduction": "通过一系列内置和可扩展的模式，Roo Code 让你能够以前所未有的方式进行规划、架构设计、编码、调试并提升工作效率。",
 		"accountMention": "开始使用，创建你的 Roo Code Cloud 账户。获得强大模型、网络控制、分析、支持等。",
 		"getStarted": "创建 Roo 账户",

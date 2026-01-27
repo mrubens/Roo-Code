@@ -14,6 +14,7 @@
 	},
 	"landing": {
 		"greeting": "Roo Code'a Hoş Geldin!",
+		"haiku": "Code flows like water\nIntelligence guides your path\nCreate without bounds",
 		"introduction": "Yerleşik ve genişletilebilir Modlar yelpazesiyle Roo Code, daha önce hiç olmadığı gibi planlama, mimari tasarım, kodlama, hata ayıklama ve üretkenliğini artırmanı sağlar.",
 		"accountMention": "Başlamak için Roo Code Cloud hesabını oluştur. Güçlü modeller, web kontrolü, analizler, destek ve daha fazlasını al.",
 		"getStarted": "Roo Hesabı Oluştur",

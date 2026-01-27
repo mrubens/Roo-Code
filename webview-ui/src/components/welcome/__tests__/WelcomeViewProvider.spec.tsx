@@ -125,6 +125,9 @@ describe("WelcomeViewProvider", () => {
 			// Should show the landing greeting
 			expect(screen.getByText(/welcome:landing.greeting/)).toBeInTheDocument()
 
+			// Should show haiku
+			expect(screen.getByText(/welcome:landing.haiku/)).toBeInTheDocument()
+
 			// Should show introduction
 			expect(screen.getByTestId("trans-welcome:landing.introduction")).toBeInTheDocument()
 

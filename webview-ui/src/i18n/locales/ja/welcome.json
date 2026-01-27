@@ -14,6 +14,7 @@
 	},
 	"landing": {
 		"greeting": "Roo Codeへようこそ！",
+		"haiku": "Code flows like water\nIntelligence guides your path\nCreate without bounds",
 		"introduction": "組み込みおよび拡張可能なモードを備えたRoo Codeは、計画、アーキテクチャ設計、コーディング、デバッグ、そして今までにない生産性向上を可能にします。",
 		"accountMention": "始めるには、Roo Code Cloudアカウントを作成してください。強力なモデル、ウェブコントロール、分析、サポート、その他をご利用いただけます。",
 		"getStarted": "Rooアカウントを作成",

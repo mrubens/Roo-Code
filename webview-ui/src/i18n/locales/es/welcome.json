@@ -14,6 +14,7 @@
 	},
 	"landing": {
 		"greeting": "¡Bienvenido a Roo Code!",
+		"haiku": "Code flows like water\nIntelligence guides your path\nCreate without bounds",
 		"introduction": "Con una variedad de Modos integrados y extensibles, Roo Code te permite planificar, arquitectar, codificar, depurar y aumentar tu productividad como nunca antes.",
 		"accountMention": "Para comenzar, crea tu cuenta de Roo Code Cloud. Obtén modelos potentes, control web, análisis, soporte y más.",
 		"getStarted": "Crear cuenta de Roo",

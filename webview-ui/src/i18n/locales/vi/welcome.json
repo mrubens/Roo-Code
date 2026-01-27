@@ -14,6 +14,7 @@
 	},
 	"landing": {
 		"greeting": "Chào mừng đến với Roo Code!",
+		"haiku": "Code flows like water\nIntelligence guides your path\nCreate without bounds",
 		"introduction": "Với nhiều Chế độ tích hợp và có thể mở rộng, Roo Code cho phép bạn lập kế hoạch, thiết kế kiến trúc, viết mã, gỡ lỗi và tăng năng suất như chưa từng có trước đây.",
 		"accountMention": "Để bắt đầu, hãy tạo tài khoản Roo Code Cloud của bạn. Nhận các mô hình mạnh mẽ, kiểm soát web, phân tích, hỗ trợ và hơn thế nữa.",
 		"getStarted": "Tạo tài khoản Roo",
