@@ -17,9 +17,9 @@ export const revalidate = 3600
 
 export default async function Home() {
 	return (
-		<>
+		<div className="bg-red-600">
 			<StructuredData />
-			<section className="relative flex flex-col items-center overflow-hidden pt-20 pb-12 md:pt-32 md:pb-16">
+			<section className="relative flex flex-col items-center overflow-hidden pt-20 pb-12 md:pt-32 md:pb-16 bg-red-600">
 				<div className="absolute inset-y-0 left-1/2 h-full w-full max-w-[1200px] -translate-x-1/2 z-1">
 					<div className="absolute left-1/2 top-1/2 h-[400px] w-full -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-500/10 dark:bg-violet-700/20 blur-[140px]" />
 				</div>
@@ -77,6 +77,6 @@ export default async function Home() {
 			<Testimonials />
 			<FAQSection />
 			<CTASection />
-		</>
+		</div>
 	)
 }
