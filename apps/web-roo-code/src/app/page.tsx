@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui"
 import {
+	BouncingKangaroo,
 	CompanyLogos,
 	FAQSection,
 	Testimonials,
@@ -77,6 +78,7 @@ export default async function Home() {
 			<Testimonials />
 			<FAQSection />
 			<CTASection />
+			<BouncingKangaroo />
 		</>
 	)
 }

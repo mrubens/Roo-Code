@@ -1,4 +1,5 @@
 export * from "./animated-background"
+export * from "./bouncing-kangaroo"
 export * from "./code-example"
 export * from "./company-logos"
 export * from "./faq-section"
