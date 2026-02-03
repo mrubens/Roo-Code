@@ -99,6 +99,24 @@ const config: Config = {
 					"0%, 100%": { opacity: "0.6" },
 					"50%": { opacity: "0.8" },
 				},
+				"scan-line": {
+					"0%": { transform: "translateY(-100%)" },
+					"100%": { transform: "translateY(100%)" },
+				},
+				shimmer: {
+					"0%": { backgroundPosition: "-1000px 0" },
+					"100%": { backgroundPosition: "1000px 0" },
+				},
+				"glow-pulse": {
+					"0%, 100%": {
+						opacity: "0.3",
+						filter: "blur(20px)",
+					},
+					"50%": {
+						opacity: "0.6",
+						filter: "blur(30px)",
+					},
+				},
 			},
 			animation: {
 				"accordion-down": "accordion-down 0.2s ease-out",
@@ -106,6 +124,9 @@ const config: Config = {
 				"fade-in": "fade-in 0.5s ease-out",
 				"fade-out": "fade-out 0.5s ease-out",
 				"pulse-glow": "pulse-glow 3s infinite",
+				"scan-line": "scan-line 8s linear infinite",
+				shimmer: "shimmer 3s linear infinite",
+				"glow-pulse": "glow-pulse 4s ease-in-out infinite",
 			},
 			screens: {
 				xs: "420px",
