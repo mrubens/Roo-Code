@@ -7,21 +7,32 @@ import {
 	OptionOverviewSection,
 	PillarsSection,
 	UseExamplesSection,
+	ShamrockDecorations,
 } from "@/components/homepage"
 import { EXTERNAL_LINKS } from "@/lib/constants"
 import { ArrowRight } from "lucide-react"
 import { StructuredData } from "@/components/structured-data"
+import { isStPatricksDay } from "@/lib/is-st-patricks-day"
 
 // Invalidate cache when a request comes in, at most once every hour.
 export const revalidate = 3600
 
 export default async function Home() {
+	const showStPatricksTheme = isStPatricksDay()
+
 	return (
 		<>
 			<StructuredData />
 			<section className="relative flex flex-col items-center overflow-hidden pt-20 pb-12 md:pt-32 md:pb-16">
+				{showStPatricksTheme && <ShamrockDecorations />}
 				<div className="absolute inset-y-0 left-1/2 h-full w-full max-w-[1200px] -translate-x-1/2 z-1">
-					<div className="absolute left-1/2 top-1/2 h-[400px] w-full -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-500/10 dark:bg-violet-700/20 blur-[140px]" />
+					<div
+						className={`absolute left-1/2 top-1/2 h-[400px] w-full -translate-x-1/2 -translate-y-1/2 rounded-full blur-[140px] ${
+							showStPatricksTheme
+								? "bg-green-500/10 dark:bg-green-600/20"
+								: "bg-violet-500/10 dark:bg-violet-700/20"
+						}`}
+					/>
 				</div>
 				<div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
 					<h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-4xl mb-6">
