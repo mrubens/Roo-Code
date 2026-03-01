@@ -35,7 +35,7 @@
 - [简体中文](locales/zh-CN/README.md)
 - [繁體中文](locales/zh-TW/README.md)
 - ...
-    </details>
+      </details>
 
 ---
 
@@ -157,6 +157,22 @@ We use [changesets](https://github.com/changesets/changesets) for versioning and
 ## Disclaimer
 
 **Please note** that Roo Code, Inc does **not** make any representations or warranties regarding any code, models, or other tools provided or made available in connection with Roo Code, any associated third-party tools, or any resulting outputs. You assume **all risks** associated with the use of any such tools or outputs; such tools are provided on an **"AS IS"** and **"AS AVAILABLE"** basis. Such risks may include, without limitation, intellectual property infringement, cyber vulnerabilities or attacks, bias, inaccuracies, errors, defects, viruses, downtime, property loss or damage, and/or personal injury. You are solely responsible for your use of any such tools or outputs (including, without limitation, the legality, appropriateness, and results thereof).
+
+---
+
+## A Short Story
+
+It was 2 AM when Maya stared at the blinking cursor, her half-finished feature a tangled mess of async callbacks and race conditions. The deadline was eight hours away.
+
+She typed into the chat panel: _"Help me untangle this authentication flow."_
+
+Roo scanned the files — not just the one open, but the whole codebase, the test suite, the config. It spotted the pattern: a token refresh racing against an API call, silently dropping the first user request on login.
+
+Three minutes later, the fix was staged. Tests green. Maya leaned back and smiled.
+
+She'd been skeptical of AI pair programming. Now she understood it wasn't about replacing the thinking — it was about having someone who never gets tired, never loses context, and genuinely wants to ship good code alongside you.
+
+She pushed the commit. Then she went to bed.
 
 ---
 
