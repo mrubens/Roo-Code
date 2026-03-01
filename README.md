@@ -13,6 +13,14 @@
 
 > Your AI-Powered Dev Team, Right in Your Editor
 
+---
+
+_Code flows like water_
+_Roo guides each careful keystroke_
+_Ship with confidence_
+
+---
+
 <details>
   <summary>🌐 Available languages</summary>
 
@@ -35,7 +43,7 @@
 - [简体中文](locales/zh-CN/README.md)
 - [繁體中文](locales/zh-TW/README.md)
 - ...
-    </details>
+      </details>
 
 ---
 
