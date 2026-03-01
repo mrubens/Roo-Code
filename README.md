@@ -35,7 +35,7 @@
 - [简体中文](locales/zh-CN/README.md)
 - [繁體中文](locales/zh-TW/README.md)
 - ...
-    </details>
+      </details>
 
 ---
 
@@ -173,3 +173,13 @@ We love community contributions! Get started by reading our [CONTRIBUTING.md](CO
 ---
 
 **Enjoy Roo Code!** Whether you keep it on a short leash or let it roam autonomously, we can’t wait to see what you build. If you have questions or feature ideas, drop by our [Reddit community](https://www.reddit.com/r/RooCode/) or [Discord](https://discord.gg/roocode). Happy coding!
+
+## A Limerick
+
+A coder once lacking a clue
+Discovered a tool that just flew.
+  With Roo by their side,
+  They coded with pride,
+And shipped every feature on cue!
+
+---
