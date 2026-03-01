@@ -35,7 +35,7 @@
 - [简体中文](locales/zh-CN/README.md)
 - [繁體中文](locales/zh-TW/README.md)
 - ...
-  </details>
+    </details>
 
 ---
 
@@ -180,6 +180,16 @@ _Who needed an AI that's true,_
 _With Roo Code at hand,_
 _The work became grand,_
 _Now coding's a breeze, through and through!_
+
+---
+
+## A Limerick
+
+A coder once lacking a clue
+Discovered a tool that just flew.
+&nbsp;&nbsp;With Roo by their side,
+&nbsp;&nbsp;They coded with pride,
+And shipped every feature on cue!
 
 ---
 
