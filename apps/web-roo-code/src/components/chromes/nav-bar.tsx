@@ -208,7 +208,7 @@ export function NavBar({ stars, downloads }: NavBarProps) {
 						href={EXTERNAL_LINKS.CLOUD_APP_SIGNUP_HOME}
 						target="_blank"
 						rel="noopener noreferrer"
-						className="hidden items-center gap-1.5 rounded-md bg-primary px-4 py-2 text-sm text-primary-foreground transition-all duration-200 hover:shadow-lg hover:scale-105 md:flex">
+						className="hidden items-center gap-1.5 rounded-md bg-violet-600 px-4 py-2 text-sm text-white shadow-sm shadow-violet-900/40 transition-all duration-200 hover:bg-violet-500 hover:shadow-md hover:shadow-violet-700/50 hover:scale-105 md:flex">
 						Sign Up
 					</a>
 					<Link

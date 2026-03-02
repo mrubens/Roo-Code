@@ -187,12 +187,12 @@ export function Testimonials() {
 	return (
 		<section ref={containerRef} className="relative overflow-hidden border-t border-border py-32">
 			<div className="absolute inset-y-0 left-1/2 h-full w-full max-w-[1200px] -translate-x-1/2">
-				<div className="absolute left-1/2 top-1/2 h-[400px] w-full -translate-x-1/2 -translate-y-1/2 rounded-[100%] bg-violet-500/10 dark:bg-violet-700/30 blur-[120px]" />
+				<div className="absolute left-1/2 top-1/2 h-[600px] w-full -translate-x-1/2 -translate-y-1/2 rounded-[100%] bg-violet-500/15 dark:bg-violet-700/35 blur-[120px]" />
 			</div>
 
 			<div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="mx-auto mb-8 md:max-w-2xl text-center">
-					<h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
+					<h2 className="text-4xl font-bold tracking-tight sm:text-5xl bg-gradient-to-r from-foreground via-foreground to-violet-400 bg-clip-text text-transparent dark:to-violet-300">
 						More than 1 million people are shipping with Roo.
 					</h2>
 					<p className="mt-6 text-lg text-muted-foreground">And they have some great things to say.</p>
@@ -232,7 +232,7 @@ export function Testimonials() {
 									key={testimonial.name}
 									className="relative min-w-0 flex-[0_0_85%] px-2 md:flex-[0_0_70%] md:px-4 lg:flex-[0_0_30%]">
 									<div className="group relative py-10 h-full">
-										<div className="relative flex h-full flex-col rounded-2xl border border-border bg-background transition-all duration-500 ease-out group-hover:scale-[1.02] group-hover:border-border group-hover:bg-background/40 group-hover:shadow-xl dark:border-border/70 dark:bg-background/40 dark:group-hover:border-border dark:group-hover:bg-background/60 dark:group-hover:shadow-[0_20px_50px_rgba(59,130,246,0.15)]">
+										<div className="relative flex h-full flex-col rounded-2xl border border-border bg-background transition-all duration-500 ease-out group-hover:scale-[1.02] group-hover:border-violet-500/30 group-hover:bg-background/40 group-hover:shadow-xl group-hover:shadow-violet-900/20 dark:border-border/70 dark:bg-background/40 dark:group-hover:border-violet-500/40 dark:group-hover:bg-background/60 dark:group-hover:shadow-[0_20px_50px_rgba(139,92,246,0.2)]">
 											<div className="flex flex-1 flex-col p-4 md:p-6">
 												<div className="flex-1">
 													<p className="relative text-sm leading-relaxed text-muted-foreground transition-colors duration-300 group-hover:text-foreground/80 dark:text-foreground/70 dark:group-hover:text-foreground/90">
@@ -254,7 +254,10 @@ export function Testimonials() {
 															<span className="flex items-center mt-1">
 																{" "}
 																{Array.from({ length: testimonial.stars }, (_, i) => (
-																	<Star key={i} className="size-4 fill-violet-500" />
+																	<Star
+																		key={i}
+																		className="size-4 fill-amber-400 text-amber-400"
+																	/>
 																))}
 															</span>
 														)}

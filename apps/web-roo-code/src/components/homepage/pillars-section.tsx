@@ -47,7 +47,8 @@ export function PillarsSection() {
 	return (
 		<section className="py-24 bg-muted/30 relative">
 			<div className="absolute inset-y-0 left-1/2 h-full w-full max-w-[1200px] -translate-x-1/2">
-				<div className="absolute left-1/2 top-1/2 h-[800px] w-full -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500/10 dark:bg-blue-700/20 blur-[140px]" />
+				<div className="absolute left-1/2 top-1/2 h-[900px] w-full -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-500/15 dark:bg-violet-700/25 blur-[130px]" />
+				<div className="absolute left-1/4 top-1/3 h-[400px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500/10 dark:bg-blue-700/15 blur-[100px]" />
 			</div>
 			<div className="container px-4 mx-auto sm:px-6 lg:px-8">
 				<div className="text-center mb-16">
@@ -61,9 +62,9 @@ export function PillarsSection() {
 
 				<div className="flex flex-col md:grid md:grid-cols-8 gap-8">
 					<div className="relative md:col-span-3 h-full">
-						<div className="rounded-2xl bg-card outline outline-border/50 hover:outline-8 shadow-lg p-8 h-full group transition-all hover:shadow-2xl">
-							<div className="absolute -right-3 -top-5 bg-card border shadow-md rounded-full p-3 transition-all  group-hover:-top-4  group-hover:-right-2 group-hover:scale-110 group-hover:shadow-xl">
-								<Brain className="size-8 text-violet-600 shrink-0 mt-1" strokeWidth={1.5} />
+						<div className="rounded-2xl bg-card outline outline-border/50 hover:outline-violet-500/50 hover:outline-2 shadow-lg p-8 h-full group transition-all hover:shadow-2xl hover:shadow-violet-900/20">
+							<div className="absolute -right-3 -top-5 bg-gradient-to-br from-violet-500 to-violet-700 shadow-md shadow-violet-900/50 rounded-full p-3 transition-all group-hover:-top-4 group-hover:-right-2 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-violet-700/60">
+								<Brain className="size-8 text-white shrink-0 mt-1" strokeWidth={1.5} />
 							</div>
 							<div>
 								<h3 className="text-2xl font-bold mb-1">Model-agnostic by design</h3>
@@ -104,9 +105,9 @@ export function PillarsSection() {
 					</div>
 
 					<div className="relative col-span-5 h-full">
-						<div className="rounded-2xl bg-card outline outline-border/50 hover:outline-8 shadow-lg p-8 h-full group transition-all hover:shadow-2xl">
-							<div className="absolute -right-3 -top-5 bg-card border shadow-lg rounded-full p-3 transition-all  group-hover:-top-4  group-hover:-right-2 group-hover:scale-110 group-hover:shadow-xl">
-								<Users2 className="size-8 text-violet-600 shrink-0 mt-1" strokeWidth={1.5} />
+						<div className="rounded-2xl bg-card outline outline-border/50 hover:outline-violet-500/50 hover:outline-2 shadow-lg p-8 h-full group transition-all hover:shadow-2xl hover:shadow-violet-900/20">
+							<div className="absolute -right-3 -top-5 bg-gradient-to-br from-violet-500 to-violet-700 shadow-md shadow-violet-900/50 rounded-full p-3 transition-all group-hover:-top-4 group-hover:-right-2 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-violet-700/60">
+								<Users2 className="size-8 text-white shrink-0 mt-1" strokeWidth={1.5} />
 							</div>
 							<div>
 								<h3 className="text-2xl font-bold mb-1">Role-specific Modes</h3>
@@ -152,9 +153,9 @@ export function PillarsSection() {
 					</div>
 
 					<div className="relative col-span-4 h-full">
-						<div className="rounded-2xl bg-card outline outline-border/50 hover:outline-8 shadow-lg p-8 h-full group transition-all hover:shadow-2xl">
-							<div className="absolute -right-3 -top-5 bg-card border shadow-lg rounded-full p-3 transition-all  group-hover:-top-4  group-hover:-right-2 group-hover:scale-110 group-hover:shadow-xl">
-								<Keyboard className="size-8 text-violet-600 shrink-0 mt-1" strokeWidth={1.5} />
+						<div className="rounded-2xl bg-card outline outline-border/50 hover:outline-violet-500/50 hover:outline-2 shadow-lg p-8 h-full group transition-all hover:shadow-2xl hover:shadow-violet-900/20">
+							<div className="absolute -right-3 -top-5 bg-gradient-to-br from-violet-500 to-violet-700 shadow-md shadow-violet-900/50 rounded-full p-3 transition-all group-hover:-top-4 group-hover:-right-2 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-violet-700/60">
+								<Keyboard className="size-8 text-white shrink-0 mt-1" strokeWidth={1.5} />
 							</div>
 							<div>
 								<h3 className="text-2xl font-bold mb-1">Highly configurable</h3>
@@ -171,9 +172,9 @@ export function PillarsSection() {
 					</div>
 
 					<div className="relative col-span-4 h-full">
-						<div className="rounded-2xl bg-card outline outline-border/50 hover:outline-8 shadow-lg p-8 h-full group transition-all hover:shadow-2xl">
-							<div className="absolute -right-3 -top-5 bg-card border shadow-lg rounded-full p-3 transition-all  group-hover:-top-4  group-hover:-right-2 group-hover:scale-110 group-hover:shadow-xl">
-								<Shield className="size-8 text-violet-600 shrink-0 mt-1" strokeWidth={1.5} />
+						<div className="rounded-2xl bg-card outline outline-border/50 hover:outline-violet-500/50 hover:outline-2 shadow-lg p-8 h-full group transition-all hover:shadow-2xl hover:shadow-violet-900/20">
+							<div className="absolute -right-3 -top-5 bg-gradient-to-br from-violet-500 to-violet-700 shadow-md shadow-violet-900/50 rounded-full p-3 transition-all group-hover:-top-4 group-hover:-right-2 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-violet-700/60">
+								<Shield className="size-8 text-white shrink-0 mt-1" strokeWidth={1.5} />
 							</div>
 							<div>
 								<h3 className="text-2xl font-bold mb-1">Secure and transparent</h3>
