@@ -27,7 +27,9 @@ export default async function Home() {
 					<h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-4xl mb-6">
 						Your AI Software Engineering Team is here.
 						<br />
-						<span className="text-muted-foreground">Interactive in the IDE, autonomous in the cloud.</span>
+						<span className="text-muted-foreground">
+							They push to main at 3am so you don&apos;t have to.
+						</span>
 					</h1>
 					<div className="mt-2 max-w-3xl text-lg text-muted-foreground mb-10 space-y-3">
 						<p>
